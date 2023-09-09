@@ -1,18 +1,18 @@
 {
-  "name": "Dragon-MD-V4",
+  "name": "Queen Aurora-MD-V8.1",
   "description": "A Whatsapp md bot built in NodeJs to make experience better",
-  "logo": "https://i.ibb.co/wRgDy33/20221104-225109.png",
+  "logo": "https://i.imgur.com/TkYWzHj.png",
   "keywords": ["nodejs", "bot", "whatsapp bot", "Dragon-MD-V4", "DragonBot", "Dragon","DragonMD","multi device"],
   "success_url": "/",
   "stack": "container",
 "env": {
   "OWNER_NAME": {
   "description": "Name of Bot Owner",
-      "value": "Mr.Ameesha"
+      "value": "Mr.Hasi_784x"
   },
   "ALIVE_MESSAGE": {
     "description": "Alive message for bot",
-     "required" :false
+     "required" :true
     },
     "HEROKU_API_KEY": {
     "description": "Put HEROKU API KEY",
@@ -24,8 +24,8 @@
     },
     "AUTO_STATUS_SAVER": {
       "description": "Automatically saves status of every person and sends in log number.",
-       "value": "false",
-       "required" :false
+       "value": "true",
+       "required" :true
       },
     "AUTO_BIO": {
       "description": "Automatically change bot bio",
@@ -35,40 +35,40 @@
     "ALWAYS_ONLINE": {
        "description": "always show bot online.",
        "value": "true",
-       "required" :false
+       "required" :true
       },
    "ALIVE_IMAGE": {
     "description": "THUMBNAIL for bot.",
-     "value": "https://i.ibb.co/NF7FbF2/20230604-132133.png"
+     "value": "https://i.imgur.com/F96LEbn.png"
     },
     "ANTI_BAD_WORD": {
     "description": "Put words here. If you want it enabled in your bot otherwise leave it blank",
-     "required" :false
+     "required" :true
     },
    "ANTI_BOT": {
    "description": "Remove Unknown Bots",
    "value": "true",
-   "required" :false
+   "required" :true
    },
    "ANTILINK_VALUES": {
     "description": "Put words for antilink",
      "value": "chat.whatsapp.com,fb.com,instagram.com",
-     "required" :false
+     "required" :true
     },
      "ANTILINK_ACTION": {
     "description": "Put action for antilink",
      "value": "remove",
-     "required" :false
+     "required" :true
     },
       "READ_MESSAGE": {
     "description": "Fill the value true if you want bot to read all messages.",
-     "required" :false,
+     "required" :true,
      "value": "true"
     },
    "DISABLE_PM": {
     "description": "Disable bot in pm",
-    "value": "false",
-    "required" :false
+    "value": "true",
+    "required" :true
     },
    "PM_BLOCKER": {
    "description": "block bot pm massage",
@@ -86,7 +86,7 @@
   },
   "OWNER_NUMBER": {
     "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-       "value": "94767453646"
+       "value": "94779912589"
   },
    "SESSION_ID": {
     "description": "Please put your SESSION_ID here, Get from - https://replit.com/@AmiyaProgrammer/Dragon-MD-V4-QR?v=1"
@@ -103,7 +103,7 @@
   },
     "THEME": {
     "description": "Put the theme name you want to use. Avilable themes are SI , EN",
-     "value": "SI"
+     "value": "En"
   },
     "WORKTYPE": {
   "description": "Worktype of your bot. Use public or private, if it is private then only bot number can use it. If public then everyone can use it.",
@@ -111,12 +111,12 @@
   },
   "PACK_INFO": {
     "description": "Put packname;authorname.",
-     "value": "ᴅʀᴀɢᴏɴ-ᴍᴅ (ᴠ𝟺.𝟶) ✔;ᴍʀ.ᴀᴍᴇᴇsʜᴀ",
+     "value": "Queen Aurora created by mr hasi",
      "required": false 
   },
   "CAPTION": {
     "description": "Put Your Caption.",
-     "value": "_*🪄 𝐒𝐮𝐛𝐬𝐜𝐫𝐢𝐛𝐞 𝐎𝐮𝐫 𝐎𝐟𝐟𝐢𝐜𝐢𝐚𝐥 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🪄*_ \nhttps://youtube.com/@Dragon-MD-OFC",
+     "value": "_*🪄 Follow us from Facebook 🪄*_ https://www.facebook.com/hansakafraneendo",
      "required": false 
   },
   "heroku": {
